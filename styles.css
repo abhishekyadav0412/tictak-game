@@ -1,0 +1,38 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+#status {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#restart-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
